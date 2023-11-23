@@ -1,0 +1,330 @@
+.header{
+    width: 100%;
+    height: 87px;
+}
+
+.header .head img{
+    max-height: 100%;
+}
+
+.header .list li{
+    float: left;
+}
+
+.header .list li a{
+    line-height: 87px;
+    font-size: 22px;
+    color: #0cb2ef;
+    padding: 0 20px;
+}
+
+.header .head{
+    padding-top: 12px;
+}
+
+.header .message a{
+    line-height: 87px;
+    font-size: 18px;
+    color: #0cb2ef;
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+.main-content{
+    background-image: url(../background-train.jpg);
+    width: 100%;
+    height: 865px;
+    background-size: cover;
+}
+
+.main-content .search{
+    width: 755px;
+    height: 645px;
+    margin-top: 90px;
+    margin-right: 80px;
+    background-color: white;
+}
+
+.main-content .search .up{
+    width: 100%;
+    height: 360px;
+}
+
+.main-content .search .up .start{
+    margin-top: 30px;
+    height: 60px;
+}
+
+.main-content .search .up .start .label{
+    line-height: 60px;
+    font-size: 17px;
+    margin-left: 120px;
+}
+
+.main-content .search .up .start .input input{
+    border: 1px solid #D3D3D3; 
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 30px;
+    height: 32px;
+    width: 350px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-content .search .up .end{
+    height: 60px;
+}
+
+.main-content .search .up .end .label{
+    line-height: 60px;
+    font-size: 17px;
+    margin-left: 120px;
+}
+
+.main-content .search .up .end .input input{
+    border: 1px solid #D3D3D3; 
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 30px;
+    height: 32px;
+    width: 350px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-content .search .up .date{
+    height: 60px;
+}
+
+.main-content .search .up .date .label{
+    line-height: 60px;
+    font-size: 17px;
+    margin-left: 105px;
+}
+
+.main-content .search .up .date .input input[type="date"] {
+    margin-top: 15px;
+    margin-left: 28px;
+    height: 20px;
+    width: 335px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 17px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+  
+.main-content .search .up .date .input  input[type="date"]:focus {
+    border-color: #0cb2ef;
+}
+
+.main-content .search .up .common{
+    height: 40px;
+}
+
+.main-content .search .up .common .label{
+    line-height: 40px;
+    font-size: 17px;
+    margin-left: 105px;
+}
+
+.main-content .search .up .common .content ul li{
+    line-height: 40px;
+    font-size: 17px;
+    margin-left: 35px;
+    color: #0cb2ef;
+}
+
+.main-content .search .up .history{
+    height: 40px;
+}
+
+.main-content .search .up .history .label{
+    line-height: 40px;
+    font-size: 17px;
+    margin-left: 105px;
+}
+
+.main-content .search .up .history .content ul li{
+    line-height: 40px;
+    font-size: 17px;
+    margin-left: 35px;
+    color: #0cb2ef;
+}
+
+.main-content .search .up .button{
+    height: 80px;
+}
+
+.main-content .search .up .button {
+    width: 500px;
+    height: 46px;
+    line-height: 46px;
+    background: #0cb2ef;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 14px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.main-content .search .down{
+    width: 100%;
+    height: 245px;
+}
+
+.main-content .search .down .top{
+    height: 55px;
+}
+
+.main-content .search .down .top .message{
+    line-height: 55px;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+.main-content .search .down .top .more{
+    line-height: 55px;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+
+.main-content .search .down .top .more a:visited{
+    color: #0cb2ef;
+}
+
+.main-content .search .down .content{
+    height: 130px;
+}
+
+.main-content .search .down .content .date{
+    height: 39px;
+}
+
+.main-content .search .down .content .date p{
+    line-height: 20px;
+    font-size: 17px;
+}
+
+.main-content .search .down .content .date p:first-child{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #0cb2ef;
+}
+
+.main-content .search .down .content .date p:nth-child(2){
+    margin-left: 170px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.main-content .search .down .content .date p:last-child{
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0cb2ef;
+}
+
+.main-content .search .down .content .time{
+    height: 62px;
+}
+
+.main-content .search .down .content .time .start{
+    margin-left: 30px;
+    line-height: 62px;
+    font-size: 47px;
+    font-weight: bold;
+}
+
+.main-content .search .down .content .time .train-info{
+    margin-left: 130px;
+    height: 62px;
+    width: 200px;
+}
+
+.main-content .search .down .content .time .train-info .train-no{
+    font-size: 20px;
+    text-align: center;
+    padding-right: 35px;
+    font-weight: 500;
+}
+
+.main-content .search .down .content .time .train-info .time{
+    text-align: center;
+    padding-right: 35px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.main-content .search .down .content .time .end{
+    margin-right: 30px;
+    line-height: 62px;
+    font-size: 47px;
+    font-weight: bold;
+}
+
+.main-content .search .down .content .address{
+    height: 39px;
+}
+
+.main-content .search .down .content .address p:first-child{
+    margin-left: 40px;
+    line-height: 39px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.main-content .search .down .content .address p:last-child{
+    margin-right: 40px;
+    line-height: 39px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.main-content .search .down .bottom{
+    height: 50px;
+    border-radius: 14px;
+    margin: 10px 30px;
+    background-color: #0cb2ef;
+}
+
+.main-content .search .down .bottom .info button{
+    line-height: 40px;
+    width: 200px;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 5px;
+    background: transparent;
+    border: #696969 1px solid;
+    border-radius: 10px;
+    color: white;
+}
+
+.main-content .search .down .bottom .change button{
+    line-height: 40px;
+    width: 200px;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 5px;
+    background: transparent;
+    border: #696969 1px solid;
+    border-radius: 10px;
+    color: white;
+}
+
+.main-content .search .down .bottom .quit button{
+    line-height: 40px;
+    width: 200px;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 5px;
+    background: transparent;
+    border: #696969 1px solid;
+    border-radius: 10px;
+    color: white;
+}
