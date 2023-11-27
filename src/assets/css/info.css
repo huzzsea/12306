@@ -1,0 +1,348 @@
+.header{
+    height: 127px;
+}
+
+.header .logo{
+    margin-top: 22px;
+}
+
+.header .home{
+    width: 140px;
+    height: 124px;
+}
+
+.header .home .icon{
+    margin-top: 48px;
+}
+
+.header .home .promp{
+    line-height: 124px;
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.header .ticket{
+    width: 140px;
+    height: 124px;
+}
+
+.header .ticket .icon{
+    margin-top: 48px;
+}
+
+.header .ticket .promp{
+    line-height: 124px;
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.header .myTicket{
+    width: 200px;
+    height: 124px;
+}
+
+.header .myTicket .icon{
+    margin-top: 48px;
+}
+
+.header .myTicket .promp{
+    line-height: 124px;
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.header .change{
+    width: 200px;
+    height: 124px;
+}
+
+.header .change .icon{
+    margin-top: 48px;
+}
+
+.header .change .promp{
+    line-height: 124px;
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.header .info{
+    width: 200px;
+    height: 124px;
+}
+
+.header .info .icon{
+    margin-top: 48px;
+}
+
+.header .info .promp{
+    line-height: 124px;
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.header .head{
+    width: 250px;
+    height: 124px;
+}
+
+.header .head .icon{
+    margin-top: 32px;
+    margin-left: 35px;
+}
+
+.header .head .name{
+    line-height: 124px;
+    font-size: 28px;
+    margin-left: 20px;
+    color: #0cb2ef;
+}
+
+.border{
+    height: 2px;
+}
+
+.border .info{
+    width: 200px;
+    height: 2px;
+    margin-right: 250px;
+}
+
+.border .change{
+    width: 200px;
+    height: 2px;
+}
+
+.border .myTicket{
+    width: 200px;
+    height: 2px;
+}
+
+.border .ticket{
+    width: 140px;
+    height: 2px;
+}
+
+.border .home{
+    width: 140px;
+    height: 2px;
+}
+
+.nav{
+    height: 56px;
+    margin-left: 78px;
+}
+
+.nav span{
+    font-size: 16px;
+}
+
+.nav span:last-child{
+    color: #1684FC;
+}
+
+.main-content{
+    height: 650px;
+    margin: 0 56px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.main-content .search{
+    height: 80px;
+}
+
+.main-content .search .textbox{
+    width: 200px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+.main-content .search .textbox input{
+    width: 190px;
+    margin-top: 25px;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}   
+
+.main-content .search .button{
+    width: 200px;
+    height: 80px;
+}
+
+.main-content .search .button button{
+    width: 120px;
+    background-color: white;
+    margin-top: 25px;
+    line-height: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.main-content .header{
+    height: 80px;
+    margin: 0 30px;
+}
+
+.main-content .header .content{
+    margin-top: 15px;
+    height: 50px;
+    background-color: #f8f8f8;
+}
+
+.main-content .header .content ul li{
+    line-height: 50px;
+}
+
+.main-content .header .content .no{
+    margin-left: 20px;
+}
+
+.main-content .header .content .name{
+    margin-left: 150px;
+}
+
+.main-content .header .content .type{
+    margin-left: 230px;
+}
+
+.main-content .header .content .number{
+    margin-left: 230px;
+}
+
+.main-content .header .content .phone{
+    margin-left: 230px;
+}
+
+.main-content .header .content .status{
+    margin-left: 230px;
+}
+
+.main-content .header .content .operate{
+    margin-left: 180px;
+}
+
+.main-content .body{
+    height: 420px;
+    margin: 0 30px;
+    border-top: #bfdbfa 2px solid;
+}
+
+.main-content .body > .operate{
+    height: 50px;
+    background-color: #f0f8ff;
+    border-left: #bfdbfa 2px solid;
+    border-right: #bfdbfa 2px solid;
+}
+
+.main-content .body .operate .add{
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.main-content .body .operate .addText{
+    line-height: 50px;
+}
+
+.main-content .body .operate .delete{
+    margin-left: 65px;
+    margin-top: 12px;
+}
+
+.main-content .body .operate .deleteText{
+    line-height: 50px;
+}
+
+.main-content .body .date{
+    height: 370px;
+    overflow: auto;
+}
+
+.main-content .body .date .content{
+    height: 80px;
+    border-top: #dfdfdf 1px solid;
+    border-bottom: #dfdfdf 1px solid;
+    border-left: #bfdbfa 2px solid;
+    border-right: #bfdbfa 2px solid;
+}
+
+.main-content .body .date .content:last-child{
+    border-bottom: #bfdbfa 2px solid;
+}
+
+.main-content .body .date .content .left{
+    width: 100px;
+    height: 80px;
+}
+
+.main-content .body .date .content .left .checkbox input{
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.main-content .body .date .content .left .no{
+    line-height: 80px;
+    margin-left: 2px;
+}
+
+.main-content .body .date .content .right{
+    width: 1600px;
+    height: 80px;
+}
+
+.main-content .body .date .content .right .name{
+    width: 240px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.main-content .body .date .content .right .type{
+    width: 290px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.main-content .body .date .content .right .number{
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.main-content .body .date .content .right .phone{
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.main-content .body .date .content .right .status{
+    width: 300px;
+    height: 80px;
+}
+
+.main-content .body .date .content .right .status img{
+    margin: 26px auto;
+}
+
+.main-content .body .date .content .right .operate{
+    width: 155px;
+    height: 80px;
+}
+
+.main-content .body .date .content .right .operate .delete{
+    margin-top: 26px;
+    margin-left: 40px;
+}
+
+.main-content .body .date .content .right .operate .update{
+    margin-top: 26px;
+    margin-right: 40px;
+}
