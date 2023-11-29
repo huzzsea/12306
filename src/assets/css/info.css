@@ -1,136 +1,105 @@
 .header{
-    height: 127px;
-}
-
-.header .logo{
-    margin-top: 22px;
+    height: 66px;
 }
 
 .header .home{
-    width: 140px;
-    height: 124px;
+    width: 100px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 27px;
+    text-align: center;
 }
 
-.header .home .icon{
-    margin-top: 48px;
+.header .screen{
+    width: 150px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 27px;
+    text-align: center;
 }
 
-.header .home .promp{
-    line-height: 124px;
-    font-size: 28px;
-    margin-left: 15px;
+.header .schedule{
+    width: 120px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 27px;
+    text-align: center;
+}
+
+.header .news{
+    width: 100px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 27px;
+    text-align: center;
 }
 
 .header .ticket{
-    width: 140px;
-    height: 124px;
+    width: 150px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 27px;
+    text-align: center;
 }
 
-.header .ticket .icon{
-    margin-top: 48px;
-}
-
-.header .ticket .promp{
-    line-height: 124px;
-    font-size: 28px;
-    margin-left: 15px;
-}
-
-.header .myTicket{
-    width: 200px;
-    height: 124px;
-}
-
-.header .myTicket .icon{
-    margin-top: 48px;
-}
-
-.header .myTicket .promp{
-    line-height: 124px;
-    font-size: 28px;
-    margin-left: 15px;
-}
-
-.header .change{
-    width: 200px;
-    height: 124px;
-}
-
-.header .change .icon{
-    margin-top: 48px;
-}
-
-.header .change .promp{
-    line-height: 124px;
-    font-size: 28px;
-    margin-left: 15px;
+.header .rebook{
+    width: 130px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 27px;
+    text-align: center;
 }
 
 .header .info{
-    width: 200px;
-    height: 124px;
+    width: 250px;
+    height: 64px;
 }
 
 .header .info .icon{
-    margin-top: 48px;
+    margin-top: 14px;
+    margin-left: 40px;
 }
 
-.header .info .promp{
-    line-height: 124px;
-    font-size: 28px;
-    margin-left: 15px;
-}
-
-.header .head{
-    width: 250px;
-    height: 124px;
-}
-
-.header .head .icon{
-    margin-top: 32px;
-    margin-left: 35px;
-}
-
-.header .head .name{
-    line-height: 124px;
-    font-size: 28px;
-    margin-left: 20px;
+.header .info .name{
+    line-height: 64px;
+    font-size: 27px;
+    margin-left: 10px;
     color: #0cb2ef;
 }
 
-.border{
+.header .border{
+    width: 100%;
     height: 2px;
 }
 
-.border .info{
-    width: 200px;
-    height: 2px;
-    margin-right: 250px;
+.header .home:hover .border{
+    background-color: #0cb2ef !important;
 }
 
-.border .change{
-    width: 200px;
-    height: 2px;
+.header .screen:hover .border{
+    background-color: #0cb2ef !important;
 }
 
-.border .myTicket{
-    width: 200px;
-    height: 2px;
+.header .schedule:hover .border{
+    background-color: #0cb2ef !important;
 }
 
-.border .ticket{
-    width: 140px;
-    height: 2px;
+.header .news:hover .border{
+    background-color: #0cb2ef !important;
 }
 
-.border .home{
-    width: 140px;
-    height: 2px;
+.header .ticket:hover .border{
+    background-color: #0cb2ef !important;
+}
+
+.header .rebook:hover .border{
+    background-color: #0cb2ef !important;
 }
 
 .nav{
     height: 56px;
     margin-left: 78px;
+    margin-top: 20px;
 }
 
 .nav span{

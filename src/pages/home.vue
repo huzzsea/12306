@@ -1,26 +1,4 @@
 <template>
-    <div class="header clearfix">
-        <div class="logo leftfix">
-            <img src="../assets/logo-12306.png" alt="#">
-        </div>
-        <div class="message rightfix">
-            <a href="#">{{ username }}</a>
-        </div>
-        <div class="head rightfix">
-            <img src="../assets/icon-head.png" alt="#">
-        </div>
-        <div class="bar rightfix">
-            <ul class="list clearfix">
-                <li><a href="#">首页</a></li>
-                <li><a href="#">车站大屏</a></li>
-                <li><a href="#">时刻表</a></li>
-                <li><a href="#">新闻</a></li>
-                <li><a href="#">我的车票</a></li>
-                <li><a href="#">退/改签</a></li>
-            </ul>
-        </div>
-    </div>
-
     <div class="main-content clearfix">
         <div class="search rightfix">
             <div class="up">

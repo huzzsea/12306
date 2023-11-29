@@ -1,10 +1,9 @@
 <template>
-	<!-- <RouterView></RouterView> -->
-    <Info/>
+	<Header/>
+    <RouterView></RouterView>
 </template>
 
 <script setup>
-import Info from './pages/info.vue';
-
-
+import { RouterView } from 'vue-router';
+import Header from './components/Header.vue';
 </script>

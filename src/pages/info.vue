@@ -1,43 +1,4 @@
 <template>
-    <div class="header clearfix">
-        <div class="content clearfix">
-            <div class="logo leftfix">
-                <img src="../assets/logo-12306.png">
-            </div>
-            <div ref="head" class="head rightfix clearfix">
-                <div class="icon leftfix"><img src="../assets/icon-head.png"></div>
-                <div class="name leftfix"><p>{{ username }}</p></div>
-            </div>
-            <div ref="info" @click="changeBgGround" class="info rightfix clearfix">
-                <div class="icon leftfix"><img src="../assets/icon_info.png"></div>
-                <div class="promp leftfix"><p>个人中心</p></div>
-            </div>
-            <div ref="change" @click="changeBgGround" class="change rightfix clearfix">
-                <div class="icon leftfix"><img src="../assets/icon_info.png"></div>
-                <div class="promp leftfix">退/改签</div>
-            </div>
-            <div ref="myTicket" @click="changeBgGround" class="myTicket rightfix clearfix">
-                <div class="icon leftfix"><img src="../assets/icon_info.png"></div>
-                <div class="promp leftfix">我的车票</div>
-            </div>
-            <div ref="ticket" @click="changeBgGround" class="ticket rightfix clearfix">
-                <div class="icon leftfix"><img src="../assets/icon_ticket.png"></div>
-                <div class="promp leftfix"><p>车票</p></div>
-            </div>
-            <div ref="home" @click="changeBgGround" class="home rightfix clearfix">
-                <div class="icon leftfix"><img src="../assets/icon_home.png"></div>
-                <div class="promp leftfix"><p>首页</p></div>
-            </div>
-        </div>
-        <div class="border clearfix">
-            <div ref="infoBorder" class="info rightfix"></div>
-            <div ref="changeBorder" class="change rightfix"></div>
-            <div ref="myTicketBorder" class="myTicket rightfix"></div>
-            <div ref="ticketBorder" class="ticket rightfix"></div>
-            <div ref="homeBorder" class="home rightfix"></div>
-        </div>
-    </div>
-
     <div class="nav">
         <span>当前位置：个人中心 > </span>
         <span>乘车人信息</span>
@@ -243,50 +204,11 @@
 export default{
     data(){
         return{
-            username:'肖锦坤'
+            
         }
     },
     methods:{
-        clearBgGround(){
-            this.$refs.info.style.backgroundColor = 'white';
-            this.$refs.myTicket.style.backgroundColor = 'white';
-            this.$refs.ticket.style.backgroundColor = 'white';
-            this.$refs.home.style.backgroundColor = 'white';
-            this.$refs.change.style.backgroundColor = 'white';
-            this.$refs.infoBorder.style.backgroundColor = 'white';
-            this.$refs.myTicketBorder.style.backgroundColor = 'white';
-            this.$refs.ticketBorder.style.backgroundColor = 'white';
-            this.$refs.homeBorder.style.backgroundColor = 'white';
-            this.$refs.changeBorder.style.backgroundColor = 'white';
-        },
-        changeBgGround(e){
-            this.clearBgGround();
-            var list = ['info','myTicket','ticket','home','change'];
-            var node = e.target;
-            while(!list.includes(node.classList[0])){
-                node = node.parentNode;
-            }
-            node.style.backgroundColor = '#E6F7FF';
-            console.log(node.classList[0]);
-            console.log(typeof node.classList[0]);
-            switch(node.classList[0]){
-                case 'info':
-                    this.$refs.infoBorder.style.backgroundColor = '#1684FC';
-                    break;
-                case 'myTicket':
-                    this.$refs.myTicketBorder.style.backgroundColor = '#1684FC';
-                    break;
-                case 'ticket':
-                    this.$refs.ticketBorder.style.backgroundColor = '#1684FC';
-                    break;
-                case 'home':
-                    this.$refs.homeBorder.style.backgroundColor = '#1684FC';
-                    break;
-                case 'change':
-                    this.$refs.changeBorder.style.backgroundColor = '#1684FC';
-                    break;
-            }
-        }
+        
     }
 }
 </script>
